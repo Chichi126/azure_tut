@@ -73,6 +73,3 @@ Each client is crucial for the next step in the process:
 - **File System Client**: Manages your containers (file systems).
 - **Directory Client**: Handles your directory and file operations, leading to the final step of uploading your files.
 
----
-
-This post should now be self-explanatory and suitable for inclusion in your GitHub README, offering a clear guide to using Azure's CLI and understanding the key components of Azure Data Lake.
