@@ -5,8 +5,9 @@ from azure.storage.filedatalake import (
     FileSystemClient
 )
 from azure.identity import DefaultAzureCredential
+from sas import get_token
 
-sas_token = "sv=2022-11-02&ss=bfqt&srt=co&sp=rwdlacupyx&se=2024-08-12T17:51:25Z&st=2024-08-12T09:51:25Z&spr=https&sig=KgGguJvHNksNFd0ZMUlWUAnmn3pLhp65zRj6JD1kC78%3D"
+sas_token = get_token()
 
 # creating the service client
 def get_service_client_sas(account_name: str, sas_token: str) -> DataLakeServiceClient:
