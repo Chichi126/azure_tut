@@ -24,7 +24,7 @@
 
 ### 5. Confirm the Storage Account Exists
 
-follow the CLI link here
+follow the !(CLI link)[cli_commands]
 
 
 ## Understanding the Key Clients in Azure Data Lake
