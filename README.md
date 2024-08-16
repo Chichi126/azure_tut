@@ -8,8 +8,11 @@
 - Terminal/iTerm for the CLI
 - Terraform
 - Azure Console
+- Vscode
 
 ## Steps to Create a Resource Group and Storage Account Using the CLI
+
+### Using the bash command I created them through Vscode 
 
 ### 1. Log in to Azure
 
