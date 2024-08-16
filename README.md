@@ -11,44 +11,18 @@
 
 ## Steps to Create a Resource Group and Storage Account Using the CLI
 
-In your terminal/iTerm:
-
 ### 1. Log in to Azure
-Before you start, ensure your Azure CLI is set up and you have the necessary permissions to create resources in your subscription. To log in:
-
-```bash
-az login
-```
 
 ### 2. Create a New Resource Group
-A resource group is a container that holds related resources for an Azure solution. To create a new resource group:
-
-```bash
-az group create --name MyResourceGroup --location westus
-```
 
 ### 3. Confirm the Resource Group Exists
-To verify that your resource group was successfully created:
-
-```bash
-az group show --name MyResourceGroup
-```
 
 ### 4. Create a New Storage Account
-A storage account provides a unique namespace for your Azure Storage data that is accessible from anywhere in the world. To create a new storage account:
-
-```bash
-az storage account create --name mystorageaccount --resource-group MyResourceGroup --location westus --sku Standard_LRS --kind StorageV2
-```
 
 ### 5. Confirm the Storage Account Exists
-To verify that your storage account was successfully created:
 
-```bash
-az storage account show --name mystorageaccount --resource-group MyResourceGroup
-```
+follow the CLI link here
 
----
 
 ## Understanding the Key Clients in Azure Data Lake
 
